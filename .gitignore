@@ -1,0 +1,15 @@
+# ai-contact-assistant-trece-art-studio/.gitignore
+# Version control exclusions: secrets, local environment, and runtime-generated files.
+
+# Credentials and environment variables
+.env
+
+# Python virtual environment
+.venv/
+
+# Python compiled files
+__pycache__/
+*.pyc
+
+# Local database (regenerated on each run)
+*.db
